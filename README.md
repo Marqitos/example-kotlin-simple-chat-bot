@@ -2,6 +2,8 @@
 
 - Simple Chat Bot
 
+Get to know the basic syntax of Kotlin and write a simple program using variables, conditions, loops, and functions.
+
 ## About
 
 Here, at the beginning of your programmer’s path, creating a simple console chat bot will do wonders to guide you through the basics of coding.
@@ -9,6 +11,9 @@ During this journey you will also play some word and number games that you are g
 Pack up and let’s hit the road, my friend!
 
 ## What you'll learn
+
+Once you choose a project, we'll provide you with a study plan that includes all the necessary topics from your course to get it built.
+Here’s what awaits you:
 
 ### Stage (1/5): Chatty Bot welcomes you
 

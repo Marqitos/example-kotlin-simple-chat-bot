@@ -36,6 +36,16 @@ fun main() {
     // Print age
     println("Your age is $yourAge; that's a good time to start programming!")
 
+    // Ask and print a number sequence
+    println("Now I will prove to you that I can count to any number you want.")
+    val num = scanner.nextInt()
+    for (count in 0..num) {
+        println("$count!")
+    }
+
+    // Print farewell
+    println("Completed, have a nice day!")
+
     // Free resources
     scanner.close()
 }

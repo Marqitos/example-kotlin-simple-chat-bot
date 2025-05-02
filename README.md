@@ -51,48 +51,29 @@ Use your knowledge of strings and numbers to make the assistant guess your age.
 - Characters. Char type
 - Working with string
 
+### Stage (4/5): Learning numbers
+
+Your assistant is old enough to learn how to count. And you are experienced enough to apply a for loop at this stage!
+
+- If expression
+- Loops: repeat statement
+- Ranges
+- For loop and ranges
+
 #### Description
 
-Keep improving your bot by developing new skills for it.
-We suggest a simple guessing game that will predict the age of a user.
-
-It's based on a simple math trick. First, take a look at this formula:
-
-```kotlin
-age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
-```
-
-The numbers remainder3, remainder5, and remainder7 are the remainders of division by 3, 5, and 7 respectively.
-
-It turns out that for each number ranging from 0 to 104, the calculation will result in the number itself.
-This perfectly fits the ordinary age range, doesn't it? Ask the user for the remainders and use them to guess the age!
+Now you will teach your bot to count. It's going to become an expert in numbers!
 
 #### Objective
 
-In this stage, you will introduce yourself to the bot.
-It will greet you by your name and then try to guess your age using arithmetic operations.
-
-Your program should print the following lines:
-
-```console
-Hello! My name is Aid.
-I was created in 2023.
-Please, remind me your name.
-What a great name you have, Max!
-Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
-Your age is {yourAge}; that's a good time to start programming!
-```
-
-Read three numbers from the standard input.
-Assume that all the numbers will be given on separate lines.
-Instead of `{yourAge}`, the bot will print the age determined according to the special formula discussed above.
+In this stage, you will program the bot to count from 0 to any positive number users enter.
 
 #### Example
 
-The greater-than symbol followed by a space (`> `) represents the user input. Note that it's not part of the input.
+The greater-than symbol followed by a space (`> `) represents the user input.
+Note that it's not part of the input.
 
-**Example 1:** a dialogue with the bot
+**Example 1:** a dialogue with the new version of the bot
 
 ```console
 Hello! My name is Aid.
@@ -106,6 +87,17 @@ Enter remainders of dividing your age by 3, 5 and 7.
 > 2
 > 1
 Your age is 22; that's a good time to start programming!
+Now I will prove to you that I can count to any number you want.
+> 5
+0!
+1!
+2!
+3!
+4!
+5!
+Completed, have a nice day!
 ```
 
-Use the provided template to simplify your work. You can change the text but not the number of printed lines.
+**Note:** each number starts with a new line, and after a number, the bot should print the exclamation mark.
+
+Use the provided template to simplify your work. You can change the text if you want, but be especially careful when counting numbers.

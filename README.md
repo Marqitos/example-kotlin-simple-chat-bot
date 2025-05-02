@@ -8,9 +8,9 @@ Here, at the beginning of your programmer’s path, creating a simple console ch
 During this journey you will also play some word and number games that you are going to implement all on your own.
 Pack up and let’s hit the road, my friend!
 
-## Stage (1/5): Chatty Bot welcomes you
-
 ## What you'll learn
+
+### Stage (1/5): Chatty Bot welcomes you
 
 Teach your assistant to introduce itself in the console.
 
@@ -19,31 +19,49 @@ Teach your assistant to introduce itself in the console.
 - Writing first program
 - Standard output
 
-### Description
+### Stage (2/5): Print your name
 
-Digital personal assistants help people to drive cars, plan their day, and buy things online. In a sense, they are simplified versions of artificial intelligence with whom you can talk.
-In this project, you will develop step by step a simple bot that will help you study programming.
+Introduce yourself to the bot.
 
-### Objective
+- Values and variables
+- Constants and val variables
+- Data types
+- Comments
+- Kotlin style guide. Coding coventions
+- Naming variables
+- Invoking functions
+- Standard input with Java Scanner
 
-For the first stage, you will write a bot that displays a greeting, its name, and the year it was created. First impressions count!
+#### Description
+
+The greeting part is great, but chatbots are also supposed to interact with a user. It's time to implement this functionality.
+
+#### Objective
+
+In this stage, you will introduce yourself to the bot so that it can greet you by your name.
 Your program should print the following lines:
-
-```console
-Hello! My name is {botName}.
-I was created in {birthYear}.
-```
-
-Instead of {botName}, print any name you choose and replace {birthYear} with the current year (four digits). You don't need to take any input in this stage.
-
-### Example
-
-Output:
 
 ```console
 Hello! My name is Aid.
 I was created in 2023.
+Please, remind me your name.
+What a great name you have, {yourName}!
 ```
 
-Here's the result with your bot named Aid, and 2023 as its birth year.
-Feel free to modify the values, but make sure to print exactly two lines.
+You may change the name and the creation year of your bot if you want.
+Instead of `{yourName}`, the bot must print your name entered from the standard input.
+
+#### Example
+
+The greater-than symbol followed by a space (> ) represents the user input. Note that it's not part of the input.
+**Example 1:** a dialogue with the bot
+
+```console
+Hello! My name is Aid.
+I was created in 2023.
+Please, remind me your name.
+> Max
+What a great name you have, Max!
+```
+
+Use the provided template to simplify your work. You can change the text but not the number of printed lines.

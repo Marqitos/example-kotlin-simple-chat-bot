@@ -60,20 +60,41 @@ Your assistant is old enough to learn how to count. And you are experienced enou
 - Ranges
 - For loop and ranges
 
+### Stage (5/5): Multiple choice
+
+At this point, the assistant will be able to check your knowledge and ask multiple-choice questions.
+Add some functions to your code and make the stage even better.
+
+- Declaring functions
+- While loops
+
 #### Description
 
-Now you will teach your bot to count. It's going to become an expert in numbers!
+At the final stage, you will improve your simple bot so that it can give you a test and check your answers.
+The test should be a multiple-choice quiz about programming with any number of options.
+Your bot has to repeat the test until you answer correctly and congratulate you upon completion.
 
 #### Objective
 
-In this stage, you will program the bot to count from 0 to any positive number users enter.
+Your bot can ask anything you want, but there are two rules for your output:
+
+- the line with the test should end with the question mark character;
+- an option starts with a digit followed by the dot (1., 2., 3., 4.)
+
+If a user enters an incorrect answer, the bot may print a message:
+
+```console
+Please, try again.
+```
+
+The program should stop on the correct answer and print `Congratulations, have a nice day!` at the end.
 
 #### Example
 
 The greater-than symbol followed by a space (`> `) represents the user input.
 Note that it's not part of the input.
 
-**Example 1:** a dialogue with the new version of the bot
+**Example 1:** a dialogue with the final version of your bot
 
 ```console
 Hello! My name is Aid.
@@ -86,18 +107,27 @@ Enter remainders of dividing your age by 3, 5 and 7.
 > 1
 > 2
 > 1
-Your age is 22; that's a good time to start programming!
+Your age is 22: that's a good time to start programming!
 Now I will prove to you that I can count to any number you want.
-> 5
+> 3
 0!
 1!
 2!
 3!
-4!
-5!
-Completed, have a nice day!
+Let's test your programming knowledge.
+Why do we use methods?
+1. To repeat a statement multiple times.
+2. To decompose a program into several small subroutines.
+3. To determine the execution time of a program.
+4. To interrupt the execution of a program.
+> 4
+Please, try again.
+> 2
+Congratulations, have a nice day!
 ```
 
-**Note:** each number starts with a new line, and after a number, the bot should print the exclamation mark.
+The program must end with the `Congratulations, have a nice day!` message.
 
-Use the provided template to simplify your work. You can change the text if you want, but be especially careful when counting numbers.
+Use the provided template to simplify your work.
+You can change the text if you want.
+Please note that we use functions to make it easy to understand the program and add new code to it or edit later.
